@@ -1,0 +1,11 @@
+<div class="event-binding" >
+    <h1>event-binding works!</h1>
+    <div>
+        <h3>Click event</h3>
+        <button (click)="onClick($event)" >{{msg}}</button>
+        <h3>Template reference</h3>
+        <input #getinput type="text" >
+        <button (click)="logData(getinput)" >Check console</button>
+    </div>
+</div>
+

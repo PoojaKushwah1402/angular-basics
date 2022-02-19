@@ -1,0 +1,22 @@
+.binding-conatiner,.class-binding{
+    border: 1px solid brown;
+    margin: 5px;
+    padding: 5px;
+}
+
+.class-binding{
+    border: 1px solid burlywood;
+}
+
+.some-class{
+    color: green;
+    font-weight: bold;
+}
+
+.danger {
+    color: maroon;
+}
+
+.success{
+    color: blue;
+}

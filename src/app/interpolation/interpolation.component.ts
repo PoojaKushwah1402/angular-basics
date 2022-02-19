@@ -21,6 +21,9 @@ import { Component, OnInit } from '@angular/core';
 export class InterpolationComponent implements OnInit {
 
   public title = 'Pooja'
+  public obj = {
+    name: 'pooja Kushwah'
+  }
   public siteUrl = window.location.href
   constructor() { }
 

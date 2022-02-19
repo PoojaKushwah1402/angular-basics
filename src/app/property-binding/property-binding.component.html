@@ -1,0 +1,21 @@
+<div class="binding-conatiner">
+    <h1>property-binding works!</h1>
+    <input [id]="myId" type="text" value="pooja" >
+    <input [disabled]="test" id=" {{myId}} " type="text" value="pooja" >
+</div>
+
+<div class="class-binding" >
+    <h1>Class Binding works here</h1>
+    <h3 class="some-class" > class assignment normally </h3>
+    <h3 [class]="someClass" >class assignment through binding</h3>
+    <h3 [class.danger]="isDanger" >class assignment through one condition</h3>
+    <h3 [ngClass]="whichClass" > class assignhment with 2 conditions with ngcalass (all the true class will apply) </h3>
+</div>
+
+<div class="style-binding" >
+    <h1>Style Binding works here</h1>
+    <h3 [style.color]="'orange'" > Inline style with no condition </h3>
+    <h3 [style.color]="isDanger?'red':'green'" > Inline style with condition </h3>
+</div>
+<app-event-binding></app-event-binding>
+<app-twowaybinding></app-twowaybinding>
